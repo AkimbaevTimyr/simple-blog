@@ -1,38 +1,72 @@
-.App {
+.card {
+  max-width: 600px;
+  max-height: 600px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.input-group {
+  max-width: 600px;
+  margin: 0 auto;
+  margin: 0px 0px 0px 450px;
+}
+
+.input-group-append {
+  margin: 0px 0px 0px 700px;
+}
+.header-button {
+  text-decoration: none;
+  color: black;
+}
+
+.profile {
+  margin: 0px 0px 0px 550px;
+}
+
+
+
+.input-auth {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.button-auth {
+  margin-top: 20px;
+}
+
+.button-mainPage {
+  margin-top: 5px;
+}
+
+.add-post {
   text-align: center;
+  color: blue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.add-news {
+  text-align: center;
+  color: blue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input-group{
+  margin : 0 auto
+}
+.add {
+  margin: 200px 0px 0px 600px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.addNewsGroup{
+  margin-top: 10px;
+}
+.addPostGroups{
+  margin-top: 75px;
 }
 
-.App-link {
-  color: #61dafb;
+.authProfile{
+  text-align: center;
+  margin-top: 150px;
+  font-weight: 100;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-auth{
+  margin-top: 100px;
 }
